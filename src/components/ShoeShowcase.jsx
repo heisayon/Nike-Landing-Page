@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { bigShoe1 } from "../assets/images";
+import { bigShoe1 } from "../../public/assets/images";
 import { bigShoeShoePicker } from "../constants";
 function ShoeShowcase() {
   const [shoeImage, setShoeImage] = useState(bigShoe1);

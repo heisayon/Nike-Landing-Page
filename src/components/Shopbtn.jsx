@@ -1,4 +1,4 @@
-import { arrowRight } from "../assets/icons";
+import { arrowRight } from "../../public/assets/icons";
 
 function Shopbtn() {
   return (

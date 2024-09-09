@@ -1,6 +1,6 @@
-import { headerLogo } from "../assets/images";
+import { headerLogo } from "../../public/assets/images";
 import { navlinks } from "../constants";
-import { hamburger } from "../assets/icons";
+import { hamburger } from "../../public/assets/icons";
 function Navbar() {
   return (
     <div className="pt-5">

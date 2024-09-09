@@ -1,4 +1,4 @@
-import { offer } from "../assets/images";
+import { offer } from "../../public/assets/images";
 import Shopbtn from "../components/Shopbtn";
 
 function SpecialOffer() {

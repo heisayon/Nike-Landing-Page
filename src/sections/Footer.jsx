@@ -1,4 +1,4 @@
-import { footerLogo } from "../assets/images";
+import { footerLogo } from "../../public/assets/images";
 import { Help, products, socialImages } from "../constants";
 function Footer() {
   return (

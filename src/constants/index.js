@@ -1,3 +1,23 @@
+import {
+  facebook,
+  instagram,
+  shieldTick,
+  support,
+  truckFast,
+  twitter,
+} from "../../public/assets/icons";
+import {
+  bigShoe1,
+  bigShoe2,
+  bigShoe3,
+  customer1,
+  customer2,
+  shoe4,
+  shoe5,
+  shoe6,
+  shoe7,
+} from "../../public/assets/images";
+
 export const navlinks = ["Home", "About Us", "Products", "Contact Us"];
 
 export const statistics = [
@@ -8,38 +28,38 @@ export const statistics = [
 
 export const bigShoeShoePicker = [
   {
-    src: "../../src/assets/images/big-shoe1.png",
+    src: bigShoe1,
   },
   {
-    src: "../../src/assets/images/big-shoe2.png",
+    src: bigShoe2,
   },
   {
-    src: "../../src/assets/images/big-shoe3.png",
+    src: bigShoe3,
   },
 ];
 
 export const shoeCard = [
   {
     rating: "4.5",
-    src: "../../src/assets/images/shoe4.svg",
+    src: shoe4,
     name: "Nike Air Jordan-01",
     price: "$200.20",
   },
   {
     rating: "4.5",
-    src: "../../src/assets/images/shoe5.svg",
+    src: shoe5,
     name: "Nike Air Jordan-10",
     price: "$210.20",
   },
   {
     rating: "4.5",
-    src: "../../src/assets/images/shoe6.svg",
+    src: shoe6,
     name: "Nike Air Jordan-100",
     price: "$220.20",
   },
   {
     rating: "4.5",
-    src: "../../src/assets/images/shoe7.svg",
+    src: shoe7,
     name: "Nike Air Jordan-001",
     price: "$230.20",
   },
@@ -47,18 +67,18 @@ export const shoeCard = [
 
 export const serviceCard = [
   {
-    icon: "../../src/assets/icons/truck-fast.svg",
+    icon: truckFast,
     header: "Free Shipping",
     service: "Enjoy seamless shopping with our complimentary shipping service.",
   },
   {
-    icon: "../../src/assets/icons/shield-tick.svg",
+    icon: shieldTick,
     header: "Secure Payment",
     service:
       "Experience worry-free transactions with our secure payment options.",
   },
   {
-    icon: "../../src/assets/icons/support.svg",
+    icon: support,
     header: "Love to help you",
     service: "Our dedicated team is here to assist you every step of the way.",
   },
@@ -66,14 +86,14 @@ export const serviceCard = [
 
 export const testimonials = [
   {
-    image: "../../src/assets/images/customer1.jpeg",
+    image: customer1,
     testimony:
       "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!",
     rating: "4.5",
     name: "Morich Brown",
   },
   {
-    image: "../../src/assets/images/customer2.svg",
+    image: customer2,
     testimony:
       "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
     rating: "4.5",
@@ -83,13 +103,13 @@ export const testimonials = [
 
 export const socialImages = [
   {
-    image: "../../src/assets/icons/facebook.svg",
+    image: facebook,
   },
   {
-    image: "../../src/assets/icons/twitter.svg",
+    image: twitter,
   },
   {
-    image: "../../src/assets/icons/instagram.svg",
+    image: instagram,
   },
 ];
 

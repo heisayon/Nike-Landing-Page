@@ -7,8 +7,8 @@ export default {
         "text-primary": "#FF6452",
       },
       backgroundImage: {
-        collectionBg: "url('./src/assets/images/collection-background.svg')",
-        thumbnailBg: "url('./src/assets/images/thumbnail-background.svg')",
+        collectionBg: "url('./public/assets/images/collection-background.svg')",
+        thumbnailBg: "url('./public/assets/images/thumbnail-background.svg')",
       },
     },
     fontFamily: {

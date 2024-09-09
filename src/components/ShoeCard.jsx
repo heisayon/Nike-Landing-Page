@@ -1,4 +1,4 @@
-import { star } from "../assets/icons";
+import { star } from "../../public/assets/icons";
 import { shoeCard } from "../constants";
 
 function ShoeCard() {
