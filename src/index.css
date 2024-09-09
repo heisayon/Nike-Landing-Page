@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .card-focus:focus {
+    border: 1px solid #ff6452;
+  }
+
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    gap: 35px;
+  }
+  .card-grid-small {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(200px, 500px));
+    place-content: center;
+  }
+
+  .card-transition {
+    transition: scale 0.1s linear;
+  }
+
+  .card-transition-hover:hover {
+    scale: 1.05;
+  }
+
+}
