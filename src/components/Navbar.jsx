@@ -29,7 +29,7 @@ function Navbar() {
       </ul>
 
       {mobile && (
-        <div className="fixed top-0 right-0 w-[50%] h-[100%] xl:hidden bottom-0 z-[100] bg-white px-5 py-3 border-l border-[#4d4c4c]">
+        <div className="fixed top-0 right-0 w-[50%] h-[100%] xl:hidden bottom-0 z-[100] overflow-hidden bg-white px-5 py-3 border-l border-[#4d4c4c]">
           <div className="flex justify-end mb-4">
             <img
               src={close}
